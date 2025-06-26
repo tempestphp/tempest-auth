@@ -6,7 +6,7 @@ namespace Tempest\Auth;
 
 use Exception;
 
-final class CurrentUserNotLoggedIn extends Exception
+final class AuthenticatedUserWasMissing extends Exception
 {
     public function __construct()
     {
